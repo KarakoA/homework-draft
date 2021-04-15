@@ -3,7 +3,7 @@
 ---------------------
 ## Exercise 1
 
-The aim of this exercise is to get comfortable with the scala syntax and to play around with some concepts already introduced in the lecture.
+The aim of this exercise is to get comfortable with the scala syntax and try out some concepts already introduced in the lecture.
 
 Reuse the project you already set up in `Exercise 0`. Implement all functions as functions of an `Object` and add simple tests for them using `ScalaTest`. Do not use any mutable variables (`var` keyword).
 
