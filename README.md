@@ -1,3 +1,6 @@
+# Functional and Concurrent Programming with Scala and ZIO - SoSe 2021
+#### Deadline 30.04.2021 13:00
+---------------------
 ## Exercise 1
 
 The aim of this exercise is to get comfortable with the scala syntax and to play around with some concepts already introduced in the lecture.
@@ -47,7 +50,6 @@ Partially apply `determineHandValue` by taking a strategy in order to form two f
 ### E)
 Create a function `determineBestHandValue` which takes a hand and computes its value using `optimisticF` and if this results in a bust returns `pessimisticF` instead.
 
-
 ## Optional Task
 Those tasks are optional and usually a lot harder than the normal tasks and just give additional, bonus points.
 
@@ -60,3 +62,18 @@ and in the optimistic 31, however it will never consider the actual best case - 
 Update `determineBestHandValue`so it also covers that case.
 
 *Hint: A way to solve this is using the flatten function does. We will learn this in future lectures.*
+
+## Goals
+:star: For solving Task 1
+:star: For solving Task 2 A)
+:star: For solving Task 2 B)
+:star: For solving Task 2 C)
+:star: For solving Task 2 D)
+:star: For solving Task 2 E)
+:star: For reasonable currying in Task 2 C)
+:star: For correct partial application in Task 2 D)
+:star: For not using `var` anywhere
+:star: For having tests
+
+## Bonus Stars
+bonus :star: for solving the optional task
