@@ -22,10 +22,10 @@ def sum(arr: Array[Int]): Int = ???
 ```
 
 ### Task 2
-In the card game of Vingt-et-Un (Twenty-One) the aim is to come as close to `21` as possible, without going over it. It is played with a standard deck of cards (2 to King), where aces have a value of either 1 or 11 and all other picture cards (Jack, King, Queen) have a fixed value of 10.
+In the card game of Vingt-et-Un (Twenty-One) the aim is to come as close to `21` as possible, without going over it. It is played with a standard deck of cards (2 to King), where aces have a value of either 1 or 11 and all other picture cards (Jack, Queen, King) have a fixed value of 10.
 
 #### A) 
-Each card is represented as a a string: Number cards `"2"-"10"`, Ace - `"A"`, Jack - `"J"`, King - `"K"`, Queen - `"Q"`. 
+Each card is represented as a a string: Number cards `"2"-"10"`, Ace - `"A"`, Jack - `"J"`, Queen - `"Q"`, King - `"K"`. 
 
 Implement a function named `parse`, that takes a card (`String`) and returns an `Int`. When encountering an ace it should return `11`.
 
