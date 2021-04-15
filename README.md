@@ -76,4 +76,4 @@ Update `determineBestHandValue`so it also covers that case.
 - :star: For having tests
 
 ## Bonus Stars
-bonus :star2: for solving the optional task
+- :star2: for solving the optional task
