@@ -64,16 +64,16 @@ Update `determineBestHandValue`so it also covers that case.
 *Hint: A way to solve this is using the flatten function does. We will learn this in future lectures.*
 
 ## Goals
-:star: For solving Task 1
-:star: For solving Task 2 A)
-:star: For solving Task 2 B)
-:star: For solving Task 2 C)
-:star: For solving Task 2 D)
-:star: For solving Task 2 E)
-:star: For reasonable currying in Task 2 C)
-:star: For correct partial application in Task 2 D)
-:star: For not using `var` anywhere
-:star: For having tests
+- :star: For solving Task 1
+- :star: For solving Task 2 A)
+- :star: For solving Task 2 B)
+- :star: For solving Task 2 C)
+- :star: For solving Task 2 D)
+- :star: For solving Task 2 E)
+- :star: For reasonable currying in Task 2 C)
+- :star: For correct partial application in Task 2 D)
+- :star: For not using `var` anywhere
+- :star: For having tests
 
 ## Bonus Stars
-bonus :star: for solving the optional task
+bonus :star2: for solving the optional task
