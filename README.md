@@ -51,4 +51,5 @@ but the hand `[A, A, 9]` has three:
 `31[A(11) + A(11) + 9]`, `21[A(11) + K(10)]`, or `11[A(1) +A(1) + 9]`
 `determineBestHandValue`, as described in task 2, in the pessimistic case, would output 11
 and in the optimistic 31, however it will never consider the actual best case - 21.
-Update `determineBestHandValue`so it also covers that case. *Hint: A way to solve this is using the flatten function does. We will learn this in future lectures.*
+Update `determineBestHandValue`so it also covers that case.
+*Hint: A way to solve this is using the flatten function does. We will learn this in future lectures.*
