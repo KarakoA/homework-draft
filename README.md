@@ -40,7 +40,7 @@ It should be curried and
 - accept a strategy function (`Array[Int] => Int`), which maps the `values` of a card to a single value 
 - and the hand (`Array[Int]`).
 
-Call `values` on each card of the hand, followed by the strategy function and in the end compute the `sum` using the function you already defined in Task 1. *Hint: use `map`*
+Call `values` on each card of the hand, followed by the strategy function and in the end compute the `sum` using the function you already defined in Task 1. Note that the strategy function has no implementation. It is just a specification of a function, which will be provided in the next subtask. *Hint: use `map`* 
 
 Create a function `isBust` that takes the `hand value` and returns `true` if is greater than 21 or `false` otherwise.
 
