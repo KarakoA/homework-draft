@@ -27,7 +27,7 @@ In the card game of Vingt-et-Un (Twenty-One) the aim is to come as close to `21`
 #### A) 
 Each card is represented as a a string: Number cards `"2"-"10"`, Ace - `"A"`, Jack - `"J"`, King - `"K"`, Queen - `"Q"`. 
 
-Implement a function named `parse`, that takes a `String` and returns an `Int`. When encountering an ace it should return `11`.
+Implement a function named `parse`, that takes a card (`String`) and returns an `Int`. When encountering an ace it should return `11`.
 
 Implement another function, named `parseAll`, that takes an array of strings and calls `parse` for each element. *Hint: use `map`*
 
