@@ -45,7 +45,7 @@ Call `values` on each card of the hand, followed by the strategy function and in
 Create a function `isBust` that takes the `hand value` and returns `true` if is greater than 21 or `false` otherwise.
 
 #### D)
-Partially apply `determineHandValue` by taking a strategy in order to form two function - `optimisticF`, by applying `max` as the strategy and `pessimisticF` by applying `min` as the strategy.
+Partially apply `determineHandValue` by taking a strategy in order to form two function - `optimisticF`, by applying `max` as the strategy and `pessimisticF` by applying `min` as the strategy. Those functions now each take the `values` of a card and produce a single value (either the higher or lower in case of aces). 
 
 ### E)
 Create a function `determineBestHandValue` which takes a hand and computes its value using `optimisticF` and if this results in a bust returns `pessimisticF` instead.
