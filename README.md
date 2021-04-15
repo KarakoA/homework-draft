@@ -23,19 +23,23 @@ In the card game of Vingt-et-Un (Twenty-One) the aim is to come as close to `21`
 
 #### A) 
 Each card is represented as a a string: Number cards `"2"-"10"`, Ace - `"A"`, Jack - `"J"`, King - `"K"`, Queen - `"Q"`. 
+
 Implement a function named `parse`, that takes a `String` and returns an `Int`. When encountering an ace it should return `11`.
 
 Implement another function, named `parseAll`, that takes an array of strings and calls `parse` for each element. *Hint: use `map`*
 
 #### B)
-Implement a function `values`, that takes a card (`Int`) and returns it's possible values (`Array[Int]`). In case of aces an array containing 2 elements is returned (11 and 1). In all other cases, an array contains a single element is returned (with the value of the passed card/Integer).
+Implement a function `values`, that takes a card (`Int`) and returns its possible values (`Array[Int]`). In case of aces an array containing 2 elements is returned (11 and 1). In all other cases, an array contains a single element is returned (with the value of the passed card/Integer).
 
 #### C)
-Implement a higher order curried function `determineHandValue`, that determines the value of a hand (return type `Int`). 
-It should be curried and accept a strategy function (`Array[Int] => Int`), which maps the `values` of a card to a single value and the hand (`Array[Int]`).
+Implement a higher order curried function `determineHandValue`, that determines the `hand value` (return type `Int`). 
+It should be curried and 
+- accept a strategy function (`Array[Int] => Int`), which maps the `values` of a card to a single value 
+- and the hand (`Array[Int]`).
+-
 Call `values` on each card of the hand, followed by the strategy function and in the end compute the `sum` using the function you already defined in Task 1. *Hint: use `map`*
 
-Create a function `isBust` that takes the hand value and returns `true` if is greater than 21 or `false` otherwise.
+Create a function `isBust` that takes the `hand value` and returns `true` if is greater than 21 or `false` otherwise.
 
 #### D)
 Partially apply `determineHandValue` by taking a strategy in order to form two function - `optimisticF`, by applying `max` as the strategy and `pessimisticF` by applying `min` as the strategy.
